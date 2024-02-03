@@ -20,3 +20,6 @@
 - ```php artisan db:seed```
 - ```php artisan serve```
 - ```php artisan queue:work```
+
+### API KEY
+``` eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjMsInVzZXJuYW1lIjoiYXJmYW4geW9nYSIsImV4cCI6MjAyMjMyNDgzM30.bn3Rs95-_2LOPWImWmETLEZTHpUa0W1krlxq2lqJjYw ```
