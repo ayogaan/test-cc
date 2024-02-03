@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "acdb78ff-57d8-4b3f-b1a9-835e7097f58e",
+		"name": "deposit wallet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25979542"
+	},
+	"item": [
+		{
+			"name": "deposit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjMsInVzZXJuYW1lIjoiam9rbyIsImV4cCI6MjAyMjEwNzg2OX0.yfZnnxPIei9P6oBb6nOPtTdkzvcZMffltcgPGeAjMV0",
+						"type": "text"
+					}
+				],
+				"url": "{{baseUrl}}/deposit"
+			},
+			"response": []
+		},
+		{
+			"name": "get wallet",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjMsInVzZXJuYW1lIjoiam9rbyIsImV4cCI6MjAyMjEwNzg2OX0.yfZnnxPIei9P6oBb6nOPtTdkzvcZMffltcgPGeAjMV0",
+						"type": "text"
+					}
+				],
+				"url": "{{baseUrl}}/wallet"
+			},
+			"response": []
+		},
+		{
+			"name": "withdrawl",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjMsInVzZXJuYW1lIjoiam9rbyIsImV4cCI6MjAyMjEwNzg2OX0.yfZnnxPIei9P6oBb6nOPtTdkzvcZMffltcgPGeAjMV0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 5000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseUrl}}/withdrawl"
+			},
+			"response": []
+		},
+		{
+			"name": "create wallet",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
